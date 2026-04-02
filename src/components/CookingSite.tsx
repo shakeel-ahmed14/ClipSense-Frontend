@@ -97,7 +97,7 @@ export function CookingSite() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 via-orange-50/40 to-stone-100">
       <header className="border-b border-amber-100 bg-white/90 shadow-sm backdrop-blur">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
           <div className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 text-white shadow-md">
               <ChefHat className="h-6 w-6" />
@@ -112,7 +112,7 @@ export function CookingSite() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-5xl px-4 py-10">
+      <main className="mx-auto max-w-7xl px-4 py-10">
         <p className="mb-8 text-center text-stone-600">
           Watch the lessons below. Open the assistant to ask questions; tap a result to jump to
           that moment in the matching video.
